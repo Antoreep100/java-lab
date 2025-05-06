@@ -1,0 +1,36 @@
+class Parent
+{
+    void Print()
+    {
+        System.out.print("Antoreep");
+    }
+}
+    class subclass1 extends Parent
+    {
+    void Print()
+    {
+      System.out.print("Tamim");  
+    }
+}
+ class subclass2 extends Parent
+ {
+    void Print()
+    {
+      System.out.print("Nasim");  
+    }  
+ }
+ public class Main
+ {
+     public static void main (String[] args)
+     {
+         Parent a;
+         a =new Parent();
+         a.Print();
+         System.out.print("\n");  
+          a =new subclass1();
+         a.Print();
+          System.out.print("\n");
+          a =new subclass2();
+         a.Print();
+     }
+ }
